@@ -26,7 +26,7 @@ if (empty($user_name)) {
     <link rel="icon" href="<?= base_url() ?>assets/images/favicon.png">
 
     <link href="<?= base_url() ?>css/nta.css" media="all" rel="stylesheet" type="text/css">
-    <title>ORS <?= $page_name; ?></title>
+    <title>PM <?= $page_name; ?></title>
     <!-- Bootstrap Core CSS -->
     <link href="<?= base_url() ?>bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 

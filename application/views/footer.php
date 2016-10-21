@@ -38,6 +38,7 @@
 <!-- Custom Theme JavaScript -->
 <script src="<?php echo base_url() ?>dist/js/sb-admin-2.js"></script>
 <script src="<?php echo base_url() ?>dist/js/addRow.js"></script>
+<script src="<?php echo base_url() ?>dist/js/learningScript.js"></script>
 <script src="<?php echo base_url() ?>dist/js/bootstrap-datepicker.js"></script>
 <script src="<?php echo base_url() ?>dist/js/load-project-profiles.js"></script>
 <script src="<?php echo base_url() ?>highcharts/lib_hicharts/js/highcharts.js"></script>
