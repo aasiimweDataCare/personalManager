@@ -15,56 +15,64 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8 well">
-                <div class="container" id="title">
-                    <h1 class="text-center">
-                        The simple calculator
-                    </h1>
+                <input id="demo" type="text">
+                <button class="btn btn-default btn-sm-2 calcBtn" id="btn_evaluate" value="eval"
+                        onclick="writeToOutPut_DOMElement()">Show result
+                </button>
+                <p id="print_general"></p>
 
-                    <div class="container" id="calcs-section">
-                        <div class="row">
-                            <input id="print" class="text-right calcs" type="text" name="input" size="16">
-                            </div>
-                        </div>
-                    <div class="container" id="calc-buttons">
-                        <div class="row">
-                            <button class="btn btn-default btn-sm" onClick="go('ac');">AC</button>
-                            <button class="btn btn-default btn-sm" onClick="go('log');">log</button>
-                            <button class="btn btn-default btn-sm" onClick="go('sin');">sin</button>
-                            <button class="btn btn-default btn-sm" onClick="go('tan');">tan</button>
-                            </div>
-                        <div class="row">
-                            <button class="btn btn-default btn-sm-2" onClick="go(7);">7</button>
-                            <button class="btn btn-default btn-sm-2" onClick="go(8);">8</button>
-                            <button class="btn btn-default btn-sm-2" onClick="go(9);">9</button>
-                            <button class="btn btn-default btn-sm-2" onClick="go(' * ');">*</button>
-                            </div>
-                        <div class="row">
-                            <button class="btn btn-default btn-sm-2" onClick="go(4);">4</button>
-                            <button class="btn btn-default btn-sm-2" onClick="go(5);">5</button>
-                            <button class="btn btn-default btn-sm-2" onClick="go(6);">6</button>
-                            <button class="btn btn-default btn-sm-2" onClick="go(' - ');">-</button>
-                            </div>
-                        <div class="row">
-                            <button class="btn btn-default btn-sm-2" onClick="go(1);">1</button>
-                            <button class="btn btn-default btn-sm-2" onClick="go(2);">2</button>
-                            <button class="btn btn-default btn-sm-2" onClick="go(3);">3</button>
-                            <button class="btn btn-default btn-sm-2" onClick="go(' + ');">+</button>
-                        </div>
-                        <div class="row">
-                            <button class="btn btn-default btn-sm-2" onClick="go(0);">0</button>
-                            <button class="btn btn-default btn-sm-2" onClick="go('.');">.</button>
-                            <button class="btn btn-default btn-sm-2" onClick="go('eval');">=</button>
-                            <button class="btn btn-default btn-sm-2" onClick="go(' / ');">/</button>
-                        </div>
-                        </div>
+
+                <!--<h1 class="text-center">
+                    The simple calculator
+                </h1>
+
+                <div class="container" id="calcs-section">
+                    <div class="row">
+                        <input id="print" class="text-right calcBtn" type="text" size="16">
                     </div>
+                </div>
+                <div class="container" id="calc-buttons">
+                    <div class="row">
+                        <button class="btn btn-default btn-sm calcBtn" id="btn_clear" value="ac">AC</button>
+                        <button class="btn btn-default btn-sm calcBtn" id="btn_log" value="log">log</button>
+                        <button class="btn btn-default btn-sm calcBtn" id="btn_sin" value="sin">sin</button>
+                        <button class="btn btn-default btn-sm calcBtn" id="btn_tan" value="tan">tan</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn7" value="7">7</button>
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn8" value="8">8</button>
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn9" value="9">9</button>
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn_multiply" value=" * ">*</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn4" value="4">4</button>
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn5" value="5">5</button>
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn6" value="6">6</button>
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn_subtract" value="' - ">-</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn1" value="1">1</button>
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn2" value="2">2</button>
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn3" value="3">3</button>
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn_add" value=" + ">+</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn0" value="0">0</button>
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn_decimal" value=".">.</button>
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn_evaluate" value="eval"
+                                onclick="displayResult()">=
+                        </button>
+                        <button class="btn btn-default btn-sm-2 calcBtn" id="btn_divide" value=" / ">/</button>
+                    </div>
+                </div>-->
             </div>
         </div>
     </div>
+</div>
 
 
-    <div class="clearfix"></div>
-    <!-- /.table-responsive -->
+<div class="clearfix"></div>
+<!-- /.table-responsive -->
 
 </div>
 <!-- /#page-wrapper -->
